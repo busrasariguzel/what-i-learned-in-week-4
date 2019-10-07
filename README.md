@@ -43,13 +43,19 @@ function neither(condition1, condition2) {
 ===
 != %
 
-Unary operations 
+
 ---
 
 ## `The ternary operator`
-Takes 3 values and resolves in one value.
-example
 
+Takes 3 values and resolves in one value.
+Example: 
+
+case 'istanbul':
+    return temperatureType === 'fahrenheit' ? 'Istanbul 71F' : 'Istanbul 22C';
 ---
 
 ## `Iffy`
+
+I enjoyed this project a lot because we could pick our own topic, which allowed us to be creative. My project tells weather of different cities around the world, both in celsius and fahrenheit. If you type "istanbul celsius" you would get the weather in istanbul in celsius. If you type "Istanbul fahrenheit" you will get that number converted to fahrenheit. I added around 10 cities to make it global. I used *switch* for my code. It was very helpful for me to practice switch and ternary operations. I also practiced console.log in this project. Overall, I liked it. It was challenging but fun! I like projects that allows us to be creative.
+---
