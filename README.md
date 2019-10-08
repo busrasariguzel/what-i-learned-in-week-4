@@ -13,25 +13,29 @@ Booleans are type of javascript data that takes  only two values: true or false.
 some examples of booleans 
 function both(condition1, condition2) {
   return condition1 && condition2;
-  
-
 }
 
-function either(condition1, condition2) {
+function either(condition1, condition2){
   return condition1 || condition2;
 }
 
 function neither(condition1, condition2) {
   return !condition1 && !condition2;
-  
 }
 
 ---
 ## `If Statements`
 
 
-
-
+if (isTired && isDepressed){
+  return 'take a nap'
+}
+if (isHappy && hasMoney){
+  return 'go out with girls'
+}
+if (!hasAbs && !isTired){
+  return 'go to the gym'
+}
 ---
 
 ## `Else / if`
@@ -50,15 +54,6 @@ if (temp>35){
   }
   
 
-
-
----
-
-## `Binary operations`
-===
-!= %
-
-
 ---
 
 ## `The ternary operator`
@@ -70,18 +65,22 @@ Example:
 
 case 'istanbul':
     return temperatureType === 'fahrenheit' ? 'Istanbul 71F' : 'Istanbul 22C';
+
 ---
-## `Switch`
-* Similar to else if statement
+## `Switch Statements`
+* Similar to else if statements
 * Easier to read
   
   Example :
-   
+
   Switch(city){
     case 'istanbul':
       return temperatureType === 'fahrenheit' ? 'Istanbul 71F' : 'Istanbul 22C';
     case 'london':
       return temperatureType === 'fahrenheit' ? 'London 55F' : 'London 13C'; }
+    case 'nyc':
+      return temperatureType === 'fahrenheit' ? 'New York 73F' : 'New York 23C';
+        case 'tokyo':
 
 
 ---
